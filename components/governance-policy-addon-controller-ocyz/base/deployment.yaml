@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: governance-policy-addon-controller-ocyz
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/governance-policy-addon-controller/governance-policy-addon-controller-ocyz@sha256:e2ff656213f821eda47038db7a9f6f8607aaf11fc778144e862c059db41de9a1
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/governance-policy-addon-controller/governance-policy-addon-controller-ocyz@sha256:06a1ee3e80ab5e2b8a4b012d3762b94520a8470ce3c339d0ebee10a402290fd5
         imagePullPolicy: Always
         name: container-image
         ports:
